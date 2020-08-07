@@ -23,6 +23,9 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 # Inherit some common Superior stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
+# Launcher
+TARGET_LAUNCHER := oplauncher
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
