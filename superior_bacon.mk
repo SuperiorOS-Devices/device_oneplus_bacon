@@ -23,6 +23,9 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 # Inherit some common Superior stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
+# Def Launcher
+TARGET_LAUNCHER := lawnchair
+
 #Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
